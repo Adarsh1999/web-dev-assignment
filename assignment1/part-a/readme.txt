@@ -4,3 +4,4 @@ The navbar has a logo, which is a png and when clicked on it redirects to the ho
 The sign-up form is made using the form tag. It has two input fields one for email and other for password. The form has a button of type submit when clicked on it the form is submitted and the user input will be shown on the url.
 The menu in the home page is made using table tag. The table displays different coffee available and its price.
 There is a hyperlink below the table when clicked on it opens starbucks actual menu on a new tab
+I also used new components like location map in the i-frame src

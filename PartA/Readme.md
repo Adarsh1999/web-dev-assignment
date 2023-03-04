@@ -5,6 +5,3 @@ If the validations are successful, the application will redirect to the second p
 
 Both text fields on the second page are also validated, allowing only numbers. All four arithmetic operations are performed using only one Arrow Function.
 
-Implementation Details
-
-- I used Bootstrap for the calculator page

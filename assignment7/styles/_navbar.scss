@@ -1,0 +1,59 @@
+.navbar {
+  padding: 1rem;
+  border-bottom: 1px solid #2d2e36;
+  @extend %align-between;
+
+  .hero-icon {
+    display: inline-block;
+    height: 50px;
+    margin-right: 1rem;
+
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .hero-header {
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+
+  &_button {
+    background-color: $primary_2;
+    color: #000;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .hero-icon {
+      height: 40px;
+      margin-right: 0.5rem;
+    }
+
+    .hero-header {
+      font-size: 1.2rem;
+    }
+
+    &_button {
+      font-size: 1rem;
+      padding: 0.3rem 0.8rem;
+    }
+  }
+}

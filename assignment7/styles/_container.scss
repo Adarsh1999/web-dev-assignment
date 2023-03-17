@@ -1,0 +1,90 @@
+.poke {
+  margin: 0 2rem;
+  
+  &_header {
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  &_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    
+    @media screen and (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @media screen and (max-width: 480px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
+    &_element {
+      background-color: #5b4a3f;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+      color: #fff;
+      
+      img {
+        width: 90%;
+        height: 80%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      
+      h3 {
+        font-weight: 300;
+      }
+      
+      p {
+        font-weight: 300;
+      }
+      
+      .pokemon-grass {
+        display: inline-block;
+        background-color: #7AC74C;
+        color: #FFFFFF;
+        font-size: 0.8rem;
+        padding: 0.3rem 0.5rem;
+        border-radius: 4px;
+      }
+      
+      .pokemon-poison {
+        display: inline-block;
+        background-color: #8711db;
+        color: #FFFFFF;
+        font-size: 0.8rem;
+        padding: 0.3rem 0.5rem;
+        border-radius: 4px;
+      }
+      
+      .pokemon-fire {
+        display: inline-block;
+        background-color: orangered;
+        color: #FFFFFF;
+        font-size: 0.8rem;
+        padding: 0.3rem 0.5rem;
+        border-radius: 4px;
+      }
+      
+      .pokemon-flying {
+        display: inline-block;
+        background-color: #89f;
+        color: #FFFFFF;
+        font-size: 0.8rem;
+        padding: 0.3rem 0.5rem;
+        border-radius: 4px;
+      }
+      
+      .pokemon-water {
+        display: inline-block;
+        background-color: rgb(38, 138, 237);
+        color: #FFFFFF;
+        font-size: 0.8rem;
+        padding: 0.3rem 0.5rem;
+        border-radius: 4px;
+      }
+    }
+  }
+}

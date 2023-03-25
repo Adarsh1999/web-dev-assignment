@@ -5,7 +5,6 @@ const cors = require("cors");
 const app = express();
 
 // connect to mongodb with database name "postmanapi"
-// mongoose.connect("mongodb+srv://agm11id:pass@word@cluster0.mhi9gdb.mongodb.net/?retryWrites=true&w=majority", {
 //   useNewUrlParser: true,
 
 //   useUnifiedTopology: true,
@@ -15,7 +14,7 @@ const app = express();
 
 
 
-const connection_url ="mongodb+srv://agm11id:pass%40word@cluster0.z1pxy0g.mongodb.net/test?retryWrites=true&w=majority";
+const connection_url ="mongodb+srv://d@cluster0.z1pxy0g.mongodb.net/test?retryWrites=true&w=majority";
 mongoose.connect(connection_url, {
   useNewUrlParser: true,
   useUnifiedTopology: true,

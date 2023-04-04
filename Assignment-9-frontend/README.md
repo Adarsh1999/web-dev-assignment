@@ -1,6 +1,6 @@
 *Assignment 9*
 
-Email and password are validated on the login page. /users/login on localhost:8000 receives a post request from it (route created in the assignment8 repo). If the credentials are correct, it redirects to the homepage; otherwise, it displays an alert.
+Email and password are validated on the login page. /users/login on localhost:3001 receives a post request from it (route created in the assignment8 repo). If the credentials are correct, it redirects to the homepage; otherwise, it displays an alert.
 
 A navbar, a reusable component, is present on the Home, About, Jobs, and Contact pages and is used to toggle between them.
 
